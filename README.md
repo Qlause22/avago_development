@@ -27,13 +27,13 @@
     - For **Avago Frontend**:
 
       ```bash
-      git clone https://github.com/your-repo/avago-frontend.git
+      git clone https://github.com/AVAGO-PRO/AVAGO_Backend.git
       ```
 
     - For **Avago Backend**:
 
       ```bash
-      git clone https://github.com/your-repo/avago-backend.git
+      git clone https://github.com/AVAGO-PRO/AVAGO_web_app.git
       ```
 
 4. **Run the Docker Compose Command**
@@ -41,10 +41,10 @@
     After cloning the repositories, run the following command to start the Avago frontend container using the Docker Compose file:
 
     ```bash
-    docker-compose -f avago.yml up
+    docker-compose -f avago-development.yml up
     ```
 
-    This command will build and start the container specified in the `avago.yml` file.
+    This command will build and start the container specified in the `avago-development.yml` file.
 
 5. **Open VS Code and Access Docker Extension**
 
@@ -52,8 +52,8 @@
 
     - Open **VS Code**.
     - Navigate to the **Docker extension** section on the left side (you should see a Docker icon).
-    - In the **Containers** section, you will see a container named `avago_frontend`.
+    - In the **Containers** section, you will see a container that contains name `*frontend*`.
 
 6. **Connect to the Container**
 
-    Right-click on the `avago_frontend` container and select **Attach Shell**. This will allow you to connect directly to the running container, giving you access to the development environment inside the container.
+    Right-click on the container and select **Attach Shell**. This will allow you to connect directly to the running container, giving you access to the development environment inside the container.
