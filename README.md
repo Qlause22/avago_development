@@ -41,10 +41,10 @@
     After cloning the repositories, run the following command to start the Avago frontend container using the Docker Compose file:
 
     ```bash
-    docker-compose -f avago-development.yml up
+    docker-compose -f avago-compose.dev.yml up
     ```
 
-    This command will build and start the container specified in the `avago-development.yml` file.
+    This command will build and start the container specified in the `avago-compose.dev.yml` file.
 
 5. **Open VS Code and Access Docker Extension**
 
